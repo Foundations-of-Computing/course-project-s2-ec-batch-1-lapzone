@@ -1,3 +1,4 @@
+//the button for emailing,about and store 
 document.getElementById('ABOUT-US').addEventListener("click", doSomething)
 function doSomething() {
     alert("This website was designed by Rajkrishna T R and Samuel Cibi.\n\nFor more details, contact us at lapzone@gmail.com")
@@ -18,7 +19,7 @@ function email(
     window.open("https://www.gmail.com", "_blank");
 };
 
-
+// here all the images are converted into hyperlinks of corresponding laptops
 document.getElementById("lap1").addEventListener("click", link1)
 function link1(
 
