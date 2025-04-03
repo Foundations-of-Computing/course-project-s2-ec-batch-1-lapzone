@@ -12,7 +12,7 @@
 body {
     background-color: black;
 }
-
+/* here styling of buttons and headings are done*/
 h1 {
     text-align: center;
 
@@ -22,12 +22,12 @@ h2 {
     margin: 50px;
     top: 0px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 299%;
     font-weight: 300;
     background: linear-gradient(135deg, rgb(36, 22, 221), rgb(198, 5, 228));
     border-radius: 20px;
     box-shadow: 0 8px 32px rgb(255, 0, 128);
-    font-size: xx-large;
+   
     color: rgb(255, 255, 255);
     background-color: blue;
     padding: 100px 200px;
@@ -98,6 +98,10 @@ button {
 
 button:hover {
     cursor: pointer;
+    transform :scale(1.01);
+    transition-duration: 0.5s;
+    background:linear-gradient(135deg,rgb(162, 151, 164),rgb(22, 25, 31));
+    color: black;
 }
 
 img:hover {
